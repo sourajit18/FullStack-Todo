@@ -30,7 +30,7 @@ export function Createtodo() {
                 }
             }).then(async (res)=>{
                 const data=await (res.json())
-                alert("Todo has been added")
+                alert(data.message)
             })
         }
         }>Add Todo</button>
