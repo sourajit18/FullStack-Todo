@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 18px;
+    margin: 2.1px;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.container:nth-child(odd){
+    background-color: rgb(154, 250, 232);
+}
+.container:nth-child(even){
+    background-color: rgb(230, 218, 114);
+}
+
+.todo{
+font-size: 18px;
+}
+.todotitle{
+font-weight: bold;
+}
+.tododesc{
+
+}
+.todoID{
+
+}
