@@ -9,7 +9,7 @@ import { Displaytodos } from './components/Displaytodos'
 function App() {
   const [todos, setTodos] = useState([])
    
-    fetch("http://localhost:3000/get_todos")
+    fetch("https://fullstack-todobysourajit.onrender.com/get_todos")
       .then(async (res) => {
         const updatedTodoState = await res.json()
         setTodos(updatedTodoState.todoList)

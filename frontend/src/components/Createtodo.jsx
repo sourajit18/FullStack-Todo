@@ -19,7 +19,7 @@ export function Createtodo() {
         }}/> <br />
         </div>
         <button onClick={()=>{
-            fetch("http://localhost:3000/add_todo",{
+            fetch("https://fullstack-todobysourajit.onrender.com/add_todo",{
                 method:"POST",
                 body: JSON.stringify({
                     title:title,
